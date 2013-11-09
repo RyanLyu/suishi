@@ -175,6 +175,41 @@
 .menu-container > .menu-content > .menu-table > .menu-table-title > .td4{
     width: 317px;
 }
+
+/* history order */
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd1,
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd2,
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd3,
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd4,
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd5{
+    text-align: center;
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: 600;
+    line-height: 30px;
+    color:#437800;
+    background-color:#e7eeb5;
+    margin-left: 1px;
+    height: 30px;
+    float: left;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd1{
+    width: 141px;
+    margin-left: 0px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd2{
+    width: 138px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd3{
+    width: 140px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd4{
+    width: 140px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .htd5{
+    width: 317px;
+}
+
 .menu-container > .menu-content > .menu-table > .menu-table-title > .td-clear{
     clear: left;
 }
@@ -226,7 +261,6 @@
     text-align: left;
     overflow: hidden;
     text-overflow:ellipsis;
-    cursor: pointer;
 }
 .menu-container > .menu-footer{
     padding-top: 20px;
@@ -240,6 +274,36 @@
 }
 .menu-container > .menu-footer > .btn-submit-order{
     margin-top: 10px;
+}
+
+/* history paging */
+.menu-container > .menu-footer > .paging{
+    /*background-color: #007bb6;*/
+}
+.menu-container > .menu-footer > .paging > span,
+.menu-container > .menu-footer > .paging > span > a{
+    text-decoration: none;
+    color:#566445;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: "宋体";
+}
+.menu-container > .menu-footer > .paging > span > a{
+    /*padding: 0px 3px;*/
+}
+.menu-container > .menu-footer > .paging > .page-all{
+    margin-right: 30px;
+}
+.menu-container > .menu-footer > .paging > .page-text{
+    margin-right: 15px;
+}
+.menu-container > .menu-footer > .paging > .page-num > a:hover,
+.menu-container > .menu-footer > .paging > .page-num > .active{
+    color:#c72537;
+}
+.menu-container > .menu-footer > .paging > .page-num > .omit{
+    position: relative;
+    top: -3px;
 }
 
 /* part2 */

@@ -7,5 +7,5 @@
  */
 
 $(document).ready(function(){
-    //alert('asd');
+//    console.log('test for jquery!');
 });
