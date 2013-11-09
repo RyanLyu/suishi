@@ -119,6 +119,7 @@
 .menu-container > .menu-title{
     height: 30px;
     line-height: 30px;
+    margin-bottom: 1px;
 }
 .menu-container > .menu-title > .left{
     float: left;
@@ -144,11 +145,10 @@
 }
 .menu-container > .menu-content{
     /*padding-top: 10px;*/
-    background-color: #0000FF;
-    padding-bottom: 10px;
 }
 .menu-container > .menu-content > .menu-table{
     padding-top: 3px;
+    padding-bottom: 0px;
     background-color: #ffffff;
     background-image: url(img/menu_table_bg.png);
     background-repeat: repeat-x;
@@ -274,13 +274,44 @@
 
 /* history detail */
 .menu-container > .menu-content > .menu-historydetail{
-    background-color: #00df00;
+    margin: 15px 0px;
 }
-.menu-container > .menu-content > .menu-historydetail > p{
-    display: inline-block;
-    *display: inline;
-    *zoom: 1;
-    background-color: #007bb6;
+.menu-container > .menu-content > .menu-historydetail > span{
+    color:#566445;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: 100;
+}
+
+/* history detail table  */
+.menu-container > .menu-content > .menu-table-hd{
+    /*border-collapse: collapse;*/
+    background-color: #ffffff;
+}
+.menu-container > .menu-content > .menu-table-hd > thead {
+    background-color: #000000;
+}
+.menu-container > .menu-content > .menu-table-hd > thead > tr > th{
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: 600;
+    color:#437800;
+    width: 140px;
+    height: 30px;
+    margin-right: 1px;
+    /*border-right:1px solid #ffffff;*/
+}
+.menu-container > .menu-content > .menu-table-hd > thead > tr > .nobr{
+    border-right:0px none;
+}
+.menu-container > .menu-content > .menu-table-hd > tbody > tr > td{
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: 100;
+    color:#437800;
+    width: 140px;
+    padding: 10px 5px;
+    margin-right: 1px;
 }
 
 .menu-container > .menu-footer{
