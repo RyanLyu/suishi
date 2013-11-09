@@ -125,6 +125,13 @@
 }
 .menu-container > .menu-title > .left > p{
     color:#79ae35;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-right: 15px;
+}
+.menu-container > .menu-title > .left > .details{
+    color:#bbbbbb;
 }
 .menu-container > .menu-title > .right{
     float: right;
@@ -137,6 +144,8 @@
 }
 .menu-container > .menu-content{
     /*padding-top: 10px;*/
+    background-color: #0000FF;
+    padding-bottom: 10px;
 }
 .menu-container > .menu-content > .menu-table{
     padding-top: 3px;
@@ -262,6 +271,18 @@
     overflow: hidden;
     text-overflow:ellipsis;
 }
+
+/* history detail */
+.menu-container > .menu-content > .menu-historydetail{
+    background-color: #00df00;
+}
+.menu-container > .menu-content > .menu-historydetail > p{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-color: #007bb6;
+}
+
 .menu-container > .menu-footer{
     padding-top: 20px;
 }
