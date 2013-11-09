@@ -1,0 +1,281 @@
+.form-container > h1{
+    position: relative;
+    top: -8px;
+    color:#79ae35;
+    margin-bottom: 20px;
+}
+.form-container >.form{
+    width: 764px;
+    height: 338px;
+}
+.form-container >.form > .part1,
+.form-container >.form > .part2{
+    float: left;
+    height: 338px;
+}
+.form-container >.form > .part1{
+    margin-right: 1px;
+    width: 473px;
+    background-color: #f3f7d9;
+}
+.form-container >.form > .part2{
+    width: 290px;
+    background-color: #e6f1b5;
+}
+.form-container >.form > .part-clear{
+    clear: left;
+}
+.form-container >.form > .part1 > h2,
+.form-container >.form > .part1 > p,
+.form-container >.form > .part1 a{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.form-container >.form > .part1 > p{
+    color:#696d56;
+    line-height: 20px;
+}
+/* 管理账户登录使用 */
+.form-container >.form > .part1 a{
+    text-decoration: none;
+    color: #79ae35;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.form-container >.form > .part2 > .part1{
+    height: 47px;
+    border: 0px none;
+    border-bottom: 1px solid #ffffff;
+}
+.form-container >.form > .part2 > .part2{
+    height: 290px;
+}
+.form-container >.form > .part2 > .part1 > h3{
+    margin-left: 20px;
+    color:#79ae35;
+    line-height: 47px;
+}
+.form-container >.form > .part2 > .part2 .submit-info{
+    width: 203px;
+    margin:20px auto;
+}
+.form-container >.form > .part2 > .part2 .submit-info input[type=submit]{
+    width: 100%;
+    height: 32px;
+    background-color: #f06000;
+    border: 0px none;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: 100;
+    color:#fff6d1;
+    cursor: pointer;
+}
+.form-container >.form > .part2 > .part2 .submit-info .forgetpassword{
+    width: 203px;
+    text-align: right;
+    margin-top: 10px;
+}
+.form-container >.form > .part2 > .part2 .submit-info .forgetpassword a{
+    color:#989f7b;
+    text-decoration: none;
+    cursor: help;
+}
+.form-container >.form > .part2 > .part2 .submit-info .forgetpassword .send-email{
+    width: 232px;
+    position: absolute;
+    margin-top: -13px;
+    margin-left: -15px;
+    *margin-top: -5px;
+    *margin-left: -225px;
+    z-index: 999;
+    display: none;
+}
+.form-container >.form > .part2 > .part2 .submit-info .forgetpassword .send-email > .bg{
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 232px;
+    height: 40px;
+    background-image: url(img/foregetpassword_bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 50px;
+    color:#ffffff;
+}
+.form-container >.form > .part2 > .part2 .submit-info .forgetpassword .send-email > .content{
+    text-align: center;
+    background-color: #ffffff;
+    border: 4px solid #b8d201;
+    padding: 20px 0px;
+}
+.form-container >.form > .part2 > .part2 .submit-info .forgetpassword:hover .send-email{
+    display: block;
+}
+.menu-container{
+    /*background-color: #00df00;*/
+    margin-bottom: 50px;
+}
+.menu-container > .menu-title{
+    height: 30px;
+    line-height: 30px;
+}
+.menu-container > .menu-title > .left{
+    float: left;
+}
+.menu-container > .menu-title > .left > p{
+    color:#79ae35;
+}
+.menu-container > .menu-title > .right{
+    float: right;
+}
+.menu-container > .menu-title > .right > p{
+    color:#437800;
+}
+.menu-container > .menu-title > .clear{
+    clear: both;
+}
+.menu-container > .menu-content{
+    /*padding-top: 10px;*/
+}
+.menu-container > .menu-content > .menu-table{
+    padding-top: 3px;
+    background-color: #ffffff;
+    background-image: url(img/menu_table_bg.png);
+    background-repeat: repeat-x;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title{
+    height: 30px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td1,
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td2,
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td3,
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td4{
+    text-align: center;
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: 600;
+    line-height: 30px;
+    color:#437800;
+    background-color:#e7eeb5;
+    margin-left: 1px;
+    height: 30px;
+    float: left;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td1{
+    width: 280px;
+    margin-left: 0px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td2{
+    width: 140px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td3{
+    width: 140px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td4{
+    width: 317px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-title > .td-clear{
+    clear: left;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-body{
+    border: 1px solid #e7eeb5;
+    border-bottom: 0px none;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td1,
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td2,
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td3,
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td4,
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td5{
+    height: 30px;
+    width: 140px;
+    border: 0px none;
+    border-left: 1px solid #e7eeb5;
+    border-bottom: 1px solid #e7eeb5;
+    text-align: center;
+    font-weight: 100;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 30px;
+    color:#566445;
+    float: left;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td-clear{
+    clear: left;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td1{
+    border-left: 0px none;
+    width: 124px;
+    text-align: left;
+    padding:0px 8px;
+}
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td2{
+    width: 122px;
+    text-align: left;
+    padding:0px 8px;
+}
+/*.menu-container > .menu-content > .menu-table > .menu-table-body > .td3{*/
+    /*width: 140px;*/
+/*}*/
+/*.menu-container > .menu-content > .menu-table > .menu-table-body > .td4{*/
+    /*width: 140px;*/
+/*}*/
+.menu-container > .menu-content > .menu-table > .menu-table-body > .td5{
+    width: 300px;
+    padding:0px 8px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    cursor: pointer;
+}
+.menu-container > .menu-footer{
+    padding-top: 20px;
+}
+.menu-container > .menu-footer > .statistics{
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    color:#437800;
+}
+.menu-container > .menu-footer > .btn-submit-order{
+    margin-top: 10px;
+}
+
+/* part2 */
+.menu-container > .no-order{
+    padding-bottom: 10px;
+}
+.menu-container > .no-order > .no-order-title{
+    height: 22px;
+    border: 0px none;
+    border-bottom: 1px solid #bcbcbc;
+    margin-bottom: 12px;
+}
+.menu-container > .no-order > .no-order-title > p{
+    color:#3c3c3c;
+}
+.menu-container > .no-order > .no-order-content{
+
+}
+.menu-container > .no-order > .no-order-content > .left,
+.menu-container > .no-order > .no-order-content > .right{
+    float: left;
+    height: 24px;
+    margin-bottom: 7px;
+}
+.menu-container > .no-order > .no-order-content > .left{
+    width: 80px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.menu-container > .no-order > .no-order-content > .left > p{
+    color:#566445;
+}
+.menu-container > .no-order > .no-order-content > .right{
+    width: 800px;
+}
+.menu-container > .no-order > .no-order-content > .clear{
+    clear: both;
+}

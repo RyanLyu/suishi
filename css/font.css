@@ -1,0 +1,56 @@
+*{
+    font-family: "宋体","arial";
+    font-size: 12px;
+}
+
+/* font family */
+.font-f-s,
+.global-footer > .main{
+    font-family: "宋体";
+}
+.font-f-a{
+    font-family: "arial";
+}
+.font-f-w{
+    font-family: "微软雅黑","宋体","黑体";
+}
+
+/* font-size */
+.font-size12{
+    font-size: 12px;
+}
+.font-size14{
+    font-size: 14px;
+}
+.font-size16{
+    font-size: 16px;
+}
+.font-size18{
+    font-size: 18px;
+}
+.font-size20{
+    font-size: 20px;
+}
+.font-size24{
+    font-size: 24px;
+}
+.font-size26{
+    font-size: 26px;
+}
+.font-size28{
+    font-size: 28px;
+}
+.font-size32{
+    font-size: 32px;
+}
+.font-size35{
+    font-size: 35px;
+}
+
+/* font-weight */
+.font-w600{
+    font-weight: 600;
+}
+.font-w100{
+    font-weight: 100;
+}

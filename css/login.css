@@ -1,0 +1,5 @@
+.form-container >.form > .part1,
+.form-container >.form > .part2{
+    float: left;
+    height: 250px;
+}
