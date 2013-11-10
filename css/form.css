@@ -140,6 +140,10 @@
 .menu-container > .menu-title > .right > p{
     color:#437800;
 }
+.menu-container > .menu-title > .right > a{
+    text-decoration: none;
+    color:#437800;
+}
 .menu-container > .menu-title > .clear{
     clear: both;
 }
@@ -282,12 +286,21 @@
     font-size: 12px;
     font-weight: 100;
 }
+.menu-container > .menu-content > .menu-historydetail > a{
+    color:#566445;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 15px;
+}
 
 /* history detail table  */
 .menu-container > .menu-content > .menu-table-hd{
     /*border-collapse: collapse;*/
-    border: 1px solid #e7eeb5;
-    border-bottom: 0px none;
+    border-collapse:collapse;
+    /*border: 1px solid #e7eeb5;*/
+    /*border-bottom: 0px none;*/
 }
 .menu-container > .menu-content > .menu-table-hd > thead {
     background-color: #ffffff;
@@ -305,6 +318,15 @@
     /*margin-right: 1px;*/
     background-color: #e7eeb5;
     /*border-right:1px solid #ffffff;*/
+    border: 1px solid #e7eeb5;
+    border-right: 1px solid #ffffff;
+    border-top: 0px none;
+    padding-top: 3px;
+    background-image: url(img/menu_table_bg.png);
+    background-repeat: repeat-x;
+}
+.menu-container > .menu-content > .menu-table-hd > thead > tr > th.reset{
+    border-right: 1px solid #e7eeb5;
 }
 .menu-container > .menu-content > .menu-table-hd > tbody{
     background-color: #ffffff;
@@ -316,11 +338,49 @@
     color:#566445;
     width: 140px;
     padding: 10px 5px;
-    border-bottom: 1px solid #e7eeb5;
+    /*border-bottom: 1px solid #e7eeb5;*/
+    border: 1px solid #e7eeb5;
+}
+.menu-container > .menu-content > .menu-table-hd > tbody > tr > td.center{
+    text-align: center;
+}
+.menu-container > .menu-content > .menu-table-hd > tbody > tr > td > a{
+    font-size: 12px;
+    color:#566445;
+    font-family: "宋体";
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.menu-container > .menu-content > .menu-changepwd{
+    margin-top: 10px;
+}
+.menu-container > .menu-content > .menu-changepwd > .left{
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    margin-bottom: 10px;
+}
+.menu-container > .menu-content > .menu-changepwd > .right{
+    width: 180px;
+    float: left;
+    margin-bottom: 10px;
+}
+.menu-container > .menu-content > .menu-changepwd > .right > input[type=text],
+.menu-container > .menu-content > .menu-changepwd > .right > input[type=password]{
+    width: 170px;
+    height: 25px;
+    line-height: 25px;
+    border:1px solid #c6db34;
+}
+.menu-container > .menu-content > .menu-changepwd > .clear{
+    clear: both;
 }
 
 .menu-container > .menu-footer{
     padding-top: 20px;
+    *padding-top: 0px;
 }
 .menu-container > .menu-footer > .statistics{
     font-family: "宋体";
@@ -331,6 +391,14 @@
 }
 .menu-container > .menu-footer > .btn-submit-order{
     margin-top: 10px;
+}
+.menu-container > .menu-footer > .btn-cancel{
+    text-decoration: none;
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: 100;
+    color:#9d9d9d;
+    margin-left: 20px;
 }
 
 /* history paging */
