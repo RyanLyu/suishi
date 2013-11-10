@@ -286,10 +286,14 @@
 /* history detail table  */
 .menu-container > .menu-content > .menu-table-hd{
     /*border-collapse: collapse;*/
-    background-color: #ffffff;
+    border: 1px solid #e7eeb5;
+    border-bottom: 0px none;
 }
 .menu-container > .menu-content > .menu-table-hd > thead {
-    background-color: #000000;
+    background-color: #ffffff;
+    background-color: #e7eeb5;
+    margin:0px;
+    padding: 0px;
 }
 .menu-container > .menu-content > .menu-table-hd > thead > tr > th{
     font-size: 12px;
@@ -298,20 +302,21 @@
     color:#437800;
     width: 140px;
     height: 30px;
-    margin-right: 1px;
+    /*margin-right: 1px;*/
+    background-color: #e7eeb5;
     /*border-right:1px solid #ffffff;*/
 }
-.menu-container > .menu-content > .menu-table-hd > thead > tr > .nobr{
-    border-right:0px none;
+.menu-container > .menu-content > .menu-table-hd > tbody{
+    background-color: #ffffff;
 }
 .menu-container > .menu-content > .menu-table-hd > tbody > tr > td{
     font-size: 12px;
     font-family: "宋体";
     font-weight: 100;
-    color:#437800;
+    color:#566445;
     width: 140px;
     padding: 10px 5px;
-    margin-right: 1px;
+    border-bottom: 1px solid #e7eeb5;
 }
 
 .menu-container > .menu-footer{

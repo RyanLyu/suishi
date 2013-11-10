@@ -50,7 +50,7 @@ html, body {
 .global-header > .main > .part1{
     width: 500px;
     height: 126px;
-    background: #000000 url(img/header500.png) no-repeat;
+    background: #ffffff url(img/header500.png) no-repeat;
     float: left;
 }
 .global-header > .main > .part2{
