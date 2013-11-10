@@ -361,11 +361,13 @@
     line-height: 25px;
     float: left;
     margin-bottom: 10px;
+    *margin-bottom: 0px;
 }
 .menu-container > .menu-content > .menu-changepwd > .right{
     width: 180px;
     float: left;
     margin-bottom: 10px;
+    *margin-bottom: 0px;
 }
 .menu-container > .menu-content > .menu-changepwd > .right > input[type=text],
 .menu-container > .menu-content > .menu-changepwd > .right > input[type=password]{
@@ -380,7 +382,7 @@
 
 .menu-container > .menu-footer{
     padding-top: 20px;
-    *padding-top: 0px;
+    *padding-top: 10px;
 }
 .menu-container > .menu-footer > .statistics{
     font-family: "宋体";
@@ -467,4 +469,102 @@
 }
 .menu-container > .no-order > .no-order-content > .clear{
     clear: both;
+}
+
+.menu-img-container{
+    width: 800px;
+    padding-bottom: 40px;
+    /*background-color: red;*/
+}
+.menu-img-container > .img-cell3 > .img-type{
+    margin-left: 21px;
+}
+.menu-img-container > .img-cell3 > .img-type:first-child{
+    margin-left: 0px;
+}
+.menu-img-container > .img-cell4 > .img-type{
+    margin-left: 14px;
+}
+.menu-img-container > .img-cell4 > .img-type:first-child{
+    margin-left: 0px;
+}
+.menu-img-container > .img-cell > .img-type{
+    float: left;
+    height: 212px;
+    border-right: 0px none;
+    overflow: hidden;
+    cursor: pointer;
+    /*margin-right: 10px;*/
+}
+/*.menu-img-container > .img-type1 > img,*/
+/*.menu-img-container > .img-type2 > img,*/
+/*.menu-img-container > .img-type3 > img{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+.menu-img-container > .img-cell{
+    margin-bottom: 10px;
+}
+.menu-img-container > .img-cell > .img-type1{
+    width: 303px;
+}
+.menu-img-container > .img-cell > .img-type2{
+    width: 202;
+}
+.menu-img-container > .img-cell > .img-type3{
+    width: 151;
+}
+.menu-img-container > .img-cell > .img-clear{
+    clear: both;
+}
+.menu-img-container > .img-cell > .img-type:hover > .desc{
+    display: block;
+}
+.menu-img-container > .img-cell > .img-type > .desc{
+    height: 38px;
+    line-height: 38px;
+    position: relative;
+    top: -58px;
+    overflow: hidden;
+    display: none;
+}
+.menu-img-container > .img-cell > .img-type > .desc > .bg{
+    height: 38px;
+    background-color: #000000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity: 0.5;
+}
+.menu-img-container > .img-cell > .img-type > .desc > .text{
+    height: 38px;
+    position: relative;
+    top: -38px;
+    color:#ffffff;
+}
+.menu-img-container > .img-cell > .img-type > .desc > .text > .title{
+    font-family: "宋体";
+    float: left;
+}
+.menu-img-container > .img-cell > .img-type > .desc > .text > .price{
+    font-family: "arial";
+    float: right;
+}
+.menu-img-container > .img-cell > .img-type > .desc > .text > .clear{
+    clear: both;
+}
+/* hack ie 7 , fuck !! */
+.menu-img-container > .img-cell > .img-type1 > .desc > .bg,
+.menu-img-container > .img-cell > .img-type1 > .desc > .text{
+    padding: 0px 10px;
+    width: 220px;
+}
+.menu-img-container > .img-cell > .img-type2 > .desc > .bg,
+.menu-img-container > .img-cell > .img-type2 > .desc > .text{
+    padding: 0px 10px;
+    width: 140px;
+}
+.menu-img-container > .img-cell > .img-type3 > .desc > .bg,
+.menu-img-container > .img-cell > .img-type3 > .desc > .text{
+    padding: 0px 10px;
+    width: 100px;
 }
