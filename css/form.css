@@ -568,3 +568,243 @@
     padding: 0px 10px;
     width: 100px;
 }
+
+.menu-order-container{
+    width: 100%;
+    height: 102px;
+}
+.menu-order-container > .ready{
+    width: 800px;
+    margin-bottom: 3px;
+}
+.menu-order-container > .ready > .add-food{
+    width: 26px;
+    height: 26px;
+    background-image: url(img/add.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.menu-order-container > .ready > .foodlist{
+    width: 170px;
+    height: 26px;
+    padding: 0px 10px;
+    background-color: #b8d201;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.menu-order-container > .ready > .foodlist > span{
+    color:#ffffff;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: "宋体";
+    line-height: 26px;
+    float: left;
+}
+.menu-order-container > .ready > .foodlist > .del{
+    width: 13px;
+    height: 13px;
+    background-image: url(img/del.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 2px;
+    float: right;
+}
+.menu-order-container > .ready > .foodlist > .clear{
+    clear: both;
+}
+.menu-order-container > .ready > .clear{
+    clear: both;
+}
+.menu-order-container > .info{
+    width: 100%;
+    height: 66px;
+    background-color: #e2e2ce;
+    position: absolute;
+    left: 0px;
+}
+.menu-order-container > .info > .add-action{
+    width: 800px;
+    height: 66px;
+    margin: 0px auto;
+    padding: 0px 0px 0px 40px;
+}
+.menu-order-container > .info > .add-action > .left{
+    float: left;
+}
+.menu-order-container > .info > .add-action > .left > .input{
+    width: 115px;
+    height: 40px;
+    border:0px;
+    background-color: #b8d201;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: 100;
+    color:#475100;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.menu-order-container > .info > .add-action > .left > .add-icon{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 21px;
+    height: 21px;
+    border:0px;
+    background-image: url(img/add2.png);
+    position: relative;
+    top: -3px;
+    *top: -7px;
+}
+.menu-order-container > .info > .add-action > .right{
+    float: right;
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: 100;
+    color:#00570e;
+}
+.menu-order-container > .info > .add-action > .right > .input{
+    width: 115px;
+    height: 40px;
+    border:0px;
+    background-color: #b8d201;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: 100;
+    color:#ffffff;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.menu-order-container > .info > .add-action > .right .num{
+    width: 30px;
+    height: 12px;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    margin-right: 5px;
+    color:#00570e;
+    *padding: 6px 0px;
+    *position: relative;
+    *top: 3px;
+}
+.menu-order-container > .info > .add-action > .right > span{
+    margin-right: 30px;
+    *position: relative;
+    *top: -12px;
+}
+.menu-order-container > .info > .add-action > .right > span:first-child{
+    margin-right: 10px;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container {
+    width: 287px;
+    height: 233px;
+    position: absolute;
+    background-color: #b8d201;
+    margin-top: -279px;
+    margin-left: 67px;
+    *margin-top: -228px;
+    *margin-left: -208px;
+    display: none;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .top{
+    height: 34px;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .top > .title{
+    font-size: 14px;
+    color:#175100;
+    text-align: center;
+    line-height: 34px;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .top  > .title > .close-icon{
+    float: right;
+    width: 10px;
+    height: 9px;
+    background-image: url(img/arr_w.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 14px;
+    left: -10px;
+    *top: -20px;
+    *left: -10px;
+    cursor: pointer;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .top > .clear{
+    clear: both;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom{
+    height: 192px;
+    width: 281px;
+    margin:3px auto;
+    background-color: #ffffff;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content{
+    width: 201px;
+    /*background-color: red;*/
+    margin: 0px auto;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content > a{
+    color:#d8d6d6;
+    cursor: help;
+    text-decoration: none;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content > select,
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content > input[type=text],
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content > input[type=button]{
+    border: 0px none;
+    outline: none;
+    width: 201px;
+    height: 30px;
+    /*margin-bottom: 10px;*/
+    /**margin-bottom: 15px;*/
+    margin-bottom: 15px;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content > select{
+    background-color: #ededed;
+    /*width: 230px;*/
+    /**width: 201px;*/
+    width: 201px;
+    /**height: 20px;*/
+    /*height: 25px;*/
+    height: 20px !important;
+    margin-top: 10px;
+    /*padding:9px 0px 9px 10px;*/
+    /**padding:0px;*/
+    /*text-indent: 8px;*/
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content > .select-icon{
+    width: 10px;
+    height: 9px;
+    background-image: url(img/arr_b.png);
+    *background-image: none;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -30px;
+    *margin-left: 0px;
+    *margin-top: 0px;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content > input[type=text]{
+    background-image: url(img/input-all.png);
+    background-repeat: no-repeat;
+    height: 12px;
+    padding:9px 10px;
+    width: 181px;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .bottom > .content > input[type=button]{
+    background-color: #f06000;
+    color:#ffffff;
+}
+.menu-order-container > .info > .add-action > .right > .submit-order-container > .footer{
+    height: 10px;
+    width: 10px;
+    margin:0px auto;
+    margin-top: -3px;
+    background-image: url(img/footer_icon.png);
+}
+.menu-order-container > .info > .add-action > .clear{
+    clear: both;
+}
