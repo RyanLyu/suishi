@@ -808,3 +808,26 @@
 .menu-order-container > .info > .add-action > .clear{
     clear: both;
 }
+
+.tips{
+    width: 800px;
+}
+.tips > .tip-img{
+    width: 198px;
+    height: 198px;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.tips > .tip-img > img{
+    width: 100%;
+    height: 100%;
+}
+.tips > .tip-text{
+    margin: 0px auto;
+    margin-bottom: 30px;
+    width: 312px;
+}
+.tips > .tip-footer{
+    text-align: center;
+}
