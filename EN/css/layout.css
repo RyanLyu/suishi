@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(img/bg.png);
+}
+.global-container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: relative;
+}
+.global-header {
+    height:126px;
+    background-image: url(img/header_bg.png);
+    background-repeat: repeat-x;
+}
+.global-main {
+    padding-bottom: 43px;
+    width: 100%;
+}
+.global-footer {
+    height: 43px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #000000;
+    clear: both;
+}
+
+/*
+    normal part
+    only support global container
+*/
+.global-header > .main,
+.global-footer > .main,
+.global-main > .main{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/* header */
+.global-header > .main{
+    height: 126px;
+}
+.global-header > .main > .part1{
+    width: 500px;
+    height: 126px;
+    background: #ffffff url(img/header500.png) no-repeat;
+    float: left;
+}
+.global-header > .main > .part2{
+    line-height: 70px;
+    text-align: right;
+    width: 500px;
+    height: 126px;
+    float: left;
+}
+.global-header > .main > .part2 > .ml20{
+    margin-left: 20px;
+}
+.global-header > .main > .part2 > .mr20{
+    margin-right: 20px;
+}
+.global-header > .main > .part2 > .pt-10{
+    position: relative;
+    top:-8px;
+    color:#fff6cf;
+    text-decoration: none;
+}
+.global-header > .main > .part2 > a > .icon25{
+    *cursor: pointer;
+}
+.global-header > .main > .part-clear{
+    clear: left;
+}
+/* footer */
+.global-footer > .main{
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    color:#666666;
+}
+/* main */
+.global-main > .main{
+    background-color: none;
+}
+.global-main > .main > .top{
+    width: 100%;
+    margin-bottom: 30px;
+    /*background-color: #0000FF;*/
+}
+.global-main > .main > .left{
+    width: 90px;
+    margin-right: 30px;
+    float: left;
+}
+.global-main > .main > .right{
+    float: left;
+    width: 880px;
+}
+.global-main > .main > .clear{
+    clear: left;
+}

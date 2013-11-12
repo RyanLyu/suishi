@@ -1,0 +1,153 @@
+/* button */
+
+/* 订餐首页按钮固定大小 */
+.btn-home{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 90px;
+    height: 32px;
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: 100;
+    color:#d5e46f;
+    background-color: #79ae35;
+    border: 0px none;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+    cursor: pointer;
+}
+.btn-home:hover{
+    background-color: #d5e46f;
+    color: #79ae35;
+}
+.btn{
+    width: 90px;
+    height: 32px;
+    font-size: 12px;
+    font-family: "宋体";
+    border: 0px none;
+    cursor: pointer;
+    outline: none;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.btn-sendmail{
+    background-color:#c6db34;
+    color:#375314;
+}
+.btn-cancel-sendmail{
+    background-color:#ffffff;
+    color:#9f9f9f;
+}
+
+/* order list btn */
+.order-list-nav{
+    width: 904px;
+    height: 30px;
+    border-bottom: 1px solid #c6db34;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    *position: absolute;
+    *margin-top: 1px;
+}
+.btn-order{
+    width: 120px;
+    height: 31px;
+    line-height: 31px;
+    color:#ffffff;
+    background-color: #c6db34;
+    position: relative;
+    top: -1px;
+}
+.btn-submit-order{
+    width: 155px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f06000;
+    color:#ecdba8;
+    font-size: 14px;
+}
+.btn-qqchat{
+    width:63px;
+    height: 24px;
+    line-height: 24px;
+    color:#d9d9d9;
+    background-color: #3574ae;
+}
+.btn-backMenu{
+    background-color: #b8d201;
+    color:#000000;
+    width: 114px;
+    height: 41px;
+    line-height: 41px;
+}
+
+/* 输入框组件，input textarea */
+.input-rai{
+    width: 181px;
+    height: 12px;
+    background-image: url(img/input-all.png);
+    background-repeat: no-repeat;
+    border: 0px none;
+    background-color: #e6f1b5;
+    outline: none;
+    padding:9px 10px;
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: 100;
+    margin-bottom: 10px;
+    /*line-height: 30px;*/
+}
+.textarea-rai {
+    width: 181px;
+    height: 88px;
+    background-image: url(img/textarea.png);
+    background-repeat: no-repeat;
+    background-color: #e6f1b5;
+    padding:9px 10px;
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.textarea-rai textarea{
+    width: 181px;
+    height: 88px;
+    outline: none;
+    resize: none;
+    border: 0px none;
+    background-color: #f8fce5;
+    overflow: auto;
+}
+
+.left-nav{
+    list-style: none;
+}
+.left-nav > li{
+    margin-bottom: 2px;
+}
+.left-nav > li > a {
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "宋体";
+    font-size: 12px;
+    color:#b4b4b4;
+}
+.left-nav > li > a:hover,.left-nav > li > a.active{
+    color:#ffffff;
+    background-color: #c6db34;
+    background-image: url(img/left_nav_bg.png);
+}

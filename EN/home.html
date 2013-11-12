@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    <!-- All page -->
+    <link type="text/css" rel="stylesheet" href="css/layout.css">
+    <link type="text/css" rel="stylesheet" href="css/font.css">
+    <link type="text/css" rel="stylesheet" href="css/icon.css">
+    <link type="text/css" rel="stylesheet" href="css/module.css">
+    <link type="text/css" rel="stylesheet" href="css/form.css">
+    <link type="text/css" rel="stylesheet" href="css/login.css">
+
+    <script type="text/javascript" src="javascript/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="javascript/layout.js"></script>
+</head>
+
+<body>
+
+<div class="global-container">
+
+    <div class="global-header">
+        <div class="main">
+            <div class="part1"></div>
+            <div class="part2">
+
+                <!-- before login -->
+                <!--<a class="mr20" title="撰写意见" href="#"><i class="icon25 icon-write"></i></a>-->
+                <!--<a href="#" title="登陆您的账户"><i class="icon25 icon-user"></i></a>-->
+
+                <!-- after login -->
+                <a class="mr20 font-f-a pt-10" href="#" title="您的账户">ryan910616@gmail.com</a>
+                <a title="撰写意见" href="#"><i class="icon25 icon-write"></i></a>
+
+            </div>
+            <div class="part-clear"></div>
+        </div>
+    </div>
+
+    <div class="global-main">
+        <div class="main">
+            <div class="left">
+                <!--<ul class="left-nav">-->
+                    <!--<li><a href="#">账户管理</a></li>-->
+                    <!--<li><a class="active" href="#">成员列表</a></li>-->
+                <!--</ul>-->
+                &nbsp;
+            </div>
+            <div class="right">
+                <div id="food_choice" class="menu-img-container">
+                    <div class="img-cell img-cell3">
+                        <div data-func="matchFood" data-name="红烧猪蹄" data-price="13" class="img-type img-type1">
+                            <img src="resource/food1.jpg" />
+                            <div class="desc">
+                                <div class="bg">&nbsp;</div>
+                                <div class="text">
+                                    <span class="title">红烧猪蹄</span>
+                                    <span class="price">￥13</span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-func="matchFood" data-name="口水肉丝" data-price="12" class="img-type img-type1">
+                            <img src="resource/food2.jpg" />
+                            <div class="desc">
+                                <div class="bg">&nbsp;</div>
+                                <div class="text">
+                                    <span class="title">口水肉丝</span>
+                                    <span class="price">￥12</span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-func="matchFood" data-name="生鲜莴笋" data-price="8" class="img-type img-type3">
+                            <img src="resource/food3.jpg" />
+                            <div class="desc">
+                                <div class="bg">&nbsp;</div>
+                                <div class="text">
+                                    <span class="title">生鲜莴笋</span>
+                                    <span class="price">￥8</span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-clear"></div>
+                    </div>
+                    <div class="img-cell img-cell4">
+                        <div data-func="matchFood" data-name="火爆肥肠" data-price="18" class="img-type img-type2">
+                            <img src="resource/food4.jpg" />
+                            <div class="desc">
+                                <div class="bg">&nbsp;</div>
+                                <div class="text">
+                                    <span class="title">火爆肥肠</span>
+                                    <span class="price">￥18</span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-func="matchFood" data-name="没看出来" data-price="999" class="img-type img-type2">
+                            <img src="resource/food5.jpg" />
+                            <div class="desc">
+                                <div class="bg">&nbsp;</div>
+                                <div class="text">
+                                    <span class="title">没看出来</span>
+                                    <span class="price">￥999</span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-func="matchFood" data-name="青椒肉丝" data-price="8" class="img-type img-type2">
+                            <img src="resource/food6.jpg" />
+                            <div class="desc">
+                                <div class="bg">&nbsp;</div>
+                                <div class="text">
+                                    <span class="title">青椒肉丝</span>
+                                    <span class="price">￥8</span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-func="matchFood" data-name="时蔬" data-price="8" class="img-type img-type3">
+                            <img src="resource/food7.jpg" />
+                            <div class="desc">
+                                <div class="bg">&nbsp;</div>
+                                <div class="text">
+                                    <span class="title">时蔬</span>
+                                    <span class="price">￥8</span>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-clear"></div>
+                    </div>
+                </div>
+                <div id="menu_order_container" class="menu-order-container">
+                    <div id="car_item" class="ready">
+                        <div id="submit_car_item" class="add-food">&nbsp;</div>
+                        <!--<div class="foodlist">-->
+                            <!--<span>红烧大蹄  +  爆炒肥肠 1份</span>-->
+                            <!--<div class="del"></div>-->
+                            <!--<div class="clear"></div>-->
+                        <!--</div>-->
+
+                        <div id="car_item_clear" class="clear"></div>
+                    </div>
+                    <div class="info">
+                        <div class="add-action">
+                            <div class="left">
+                                <input id="food_1" class="input" type="button" value="点选菜品" />
+                                <i class="add-icon">&nbsp;</i>
+                                <input id="food_2" class="input" type="button" value="点选菜品" />
+                            </div>
+                            <div class="right">
+                                <span><input id="food_count" class="num" type="text" value="0" />份</span>
+                                <span>合计 <label id="calc_price">0</label> 元</span>
+                                <input id="submit_menu_form" class="input" type="button" value="确认餐单" />
+                                <div id="submit_menu_form_container" class="submit-order-container">
+                                    <div class="top">
+                                        <div class="title">
+                                            填写订餐人
+                                            <div id="close_menu_form" class="close-icon">&nbsp;</div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="content">
+                                            <a href="#">没有我的公司？</a>
+                                            <select>
+                                                <option>选择公司</option>
+                                                <option>Google</option>
+                                                <option>百度</option>
+                                                <option>阿里巴巴</option>
+                                                <option>腾讯</option>
+                                                <option>奇虎360</option>
+                                                <option>雅虎</option>
+                                                <option>搜狐</option>
+                                                <option>搜狗</option>
+                                                <option>联璧科技</option>
+                                            </select>
+                                            <!--<div class="select-icon">&nbsp;</div>-->
+                                            <input type="text" placeholder="输入订餐ID" />
+                                            <input type="button" value="提交到订餐汇总处" />
+                                        </div>
+                                    </div>
+                                    <div class="footer"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="global-footer">
+        <div class="main">
+            随时点餐  版权所有  <label class="font-f-a">&copy;2013 anytimefastfoods.com</label>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
